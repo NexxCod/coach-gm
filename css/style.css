@@ -1,46 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
     font-family: "PT Sans", sans-serif;
 }
 
 /**** HEADER *****/
 
-.header {
-    background-color:#f8f9fa;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 1rem;
-    flex-wrap: wrap;
-    padding: 1rem 1rem;
-}
-
 .logo {
     width: 10rem;
 }
 
-.menu {
-    list-style-type: none;
-    display:flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
 
-.menu-link {
+.nav-link {
     text-decoration: none;
     color:rgb(28, 61, 153);
 }
-.menu-link.active {
+.nav-link.active {
     text-decoration:underline;
 }
-.menu-link:hover{
-    text-decoration:underline;
-    color:#2c9e48c9;
-}
+
 
 /******  MAIN ******/
 
