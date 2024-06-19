@@ -191,12 +191,6 @@
 
 /*---------- NOSOTROS ----------*/
 
-/* Contenedor General */
-.container {
-    max-width: 75rem;
-    margin: 0 auto;
-    padding: 1.25rem;
-}
 
 /* Sección de Misión y Visión */
 .mission-vision-section {
@@ -392,4 +386,52 @@
 
 .social-media-links a:hover {
     text-decoration: underline;
+}
+
+/* --- SERVICIOS --- */
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #34c759;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* --- TESTIMONIOS --- */
+
+.testimonial-item {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial-text {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-size: 1rem;
+    color: #666;
 }
